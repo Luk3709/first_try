@@ -12,7 +12,7 @@ def zipper(listA, listB):
 
 if __name__ == '__main__':
     food = ["pizza","sushi","jam", "pho", "tofu"]
-    people = ["Bob", "Kevin", "Angela","Meredith","Max"]
+    people = ["Bob", "Kevin", "Angela","Meredith", 'Peter',"Max"]
     
     result = zipper(food, people)
     for item in result:
